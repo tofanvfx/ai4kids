@@ -37,7 +37,7 @@ const AuthorVideo = () => {
                             fontStyle: 'italic',
                             color: 'var(--color-secondary)'
                         }}>
-                            <p style={{ fontWeight: 'bold' }}>Dr. Debu Panda & Dr. Prasant Behera</p>
+                            <p style={{ fontWeight: 'bold' }}>Mr. Debu Panda & Mr. Prasant Behera</p>
                             <p style={{ fontSize: '0.9rem' }}>Authors, AI for Kids Series</p>
                         </div>
                     </motion.div>
