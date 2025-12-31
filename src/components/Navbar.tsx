@@ -143,7 +143,7 @@ const Navbar = () => {
                             overflow: 'hidden'
                         }}
                     >
-                        <div className="container" style={{ padding: '20px 0', display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                        <div className="container" style={{ padding: '20px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
                             {navLinks.map((link) => (
                                 <button
                                     key={link.name}
