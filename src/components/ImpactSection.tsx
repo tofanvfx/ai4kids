@@ -51,13 +51,16 @@ const ImpactSection = () => {
                             Help us bridge the digital divide. Your purchase can send books to government schools, rural classrooms, and under-resourced communities across India.
                         </p>
 
-                        <button className="btn" style={{
-                            background: 'var(--color-primary)',
-                            color: 'white',
-                            fontSize: '1.2rem',
-                            padding: '16px 40px',
-                            boxShadow: '0 4px 15px rgba(224, 122, 95, 0.4)'
-                        }}>
+                        <button
+                            className="btn"
+                            onClick={() => window.open('https://docs.google.com/forms/d/1Wn1rMAneJ-TNIaXn1Vn8-VNCV2MvAGO4TCmE4GvsHpE/viewform?edit_requested=true', '_blank')}
+                            style={{
+                                background: 'var(--color-primary)',
+                                color: 'white',
+                                fontSize: '1.2rem',
+                                padding: '16px 40px',
+                                boxShadow: '0 4px 15px rgba(224, 122, 95, 0.4)'
+                            }}>
                             Gift AI Books to Schools
                         </button>
                     </div>

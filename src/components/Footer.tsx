@@ -53,7 +53,7 @@ const Footer = () => {
                                 <MapPin size={18} style={{ marginRight: '10px', marginTop: '4px' }} />
                                 <span>
                                     M74, Baramunda Housing Board Colony,<br />
-                                    Baramunda, Bhubaneswar, Odisha 751003
+                                    Bhubaneswar, Odisha 751003
                                 </span>
                             </li>
                         </ul>
@@ -68,7 +68,7 @@ const Footer = () => {
                     opacity: 0.6,
                     fontSize: '0.9rem'
                 }}>
-                    &copy; {new Date().getFullYear()} AI for Kids Series. All rights reserved. This platform is built by Aveti Learning.
+                    &copy; {new Date().getFullYear()} AI for Kids Series. All rights reserved. Built with ❤️ in Odisha by <a href="https://avetilearning.com" target="_blank" rel="noopener noreferrer" style={{ color: 'white', fontWeight: 'bold' }}>Aveti Learning</a>.
                 </div>
             </div>
         </footer>
