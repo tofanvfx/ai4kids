@@ -105,9 +105,7 @@ const Hero = () => {
                 <Play size={20} style={{ marginRight: '8px' }} />
                 Watch Author's Message
               </button>
-              <button className="btn btn-secondary" onClick={() => document.getElementById('order-section')?.scrollIntoView({ behavior: 'smooth' })}>
-                Explore the Book
-              </button>
+
             </div>
           </motion.div>
 
